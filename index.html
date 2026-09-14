@@ -28,8 +28,9 @@
     gap: 16px;
   }
   .logo {
-    height: 48px;
+    height: 40px;
     width: auto;
+    flex-shrink: 0;
   }
   .brand { font-weight: 600; font-size: 17px; }
   nav a { color: #55534c; text-decoration: none; font-size: 14px; margin-left: 20px; }
@@ -85,7 +86,16 @@
 <body>
   <header>
     <div class="header-left">
-      <img src="logo.svg" alt="Future Learning Labs" class="logo">
+      <svg class="logo" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Left light blue plane -->
+        <polygon points="50,50 130,80 130,160 50,130" fill="#7B9FD8" opacity="0.8"/>
+        <!-- Middle dark navy plane -->
+        <polygon points="100,40 160,75 160,165 100,130" fill="#001F5C"/>
+        <!-- Right cyan plane -->
+        <polygon points="150,60 210,95 210,175 150,140" fill="#00A8E8"/>
+        <!-- Bottom purple plane -->
+        <polygon points="50,130 130,160 210,175 150,140" fill="#8B5FBF" opacity="0.9"/>
+      </svg>
       <div class="brand">Future Learning Labs</div>
     </div>
     <nav>
