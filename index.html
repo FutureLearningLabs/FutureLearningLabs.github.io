@@ -22,6 +22,15 @@
     max-width: 900px;
     margin: 0 auto;
   }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .logo {
+    height: 48px;
+    width: auto;
+  }
   .brand { font-weight: 600; font-size: 17px; }
   nav a { color: #55534c; text-decoration: none; font-size: 14px; margin-left: 20px; }
   nav a:hover { color: #22221f; }
@@ -75,7 +84,10 @@
 </head>
 <body>
   <header>
-    <div class="brand">Future Learning Labs</div>
+    <div class="header-left">
+      <img src="logo.svg" alt="Future Learning Labs" class="logo">
+      <div class="brand">Future Learning Labs</div>
+    </div>
     <nav>
       <a href="#projects">Projects</a>
       <a href="mailto:joao.hilario@futurelearninglabs.org">Contact</a>
