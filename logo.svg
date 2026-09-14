@@ -1,24 +1,20 @@
-<svg viewBox="0 0 1920 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Abstract 3D shape -->
-  <g>
-    <!-- Light purple/blue back plane -->
-    <polygon points="330,130 500,50 600,150 430,230" fill="#7B9FD8" opacity="0.8"/>
-    
-    <!-- Dark blue middle plane -->
-    <polygon points="380,180 550,100 620,200 450,280" fill="#001F5C"/>
-    
-    <!-- Bright cyan front plane -->
-    <polygon points="430,140 600,60 700,160 530,240" fill="#00A8E8"/>
-    
-    <!-- Purple bottom plane -->
-    <polygon points="330,230 500,310 600,350 430,270" fill="#8B5FBF" opacity="0.9"/>
-  </g>
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B9FDB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5FBF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
   
-  <!-- Text: Future Learning Labs -->
-  <text x="750" y="240" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="#001F5C">Future</text>
-  <text x="750" y="320" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="#001F5C">Learning</text>
-  <text x="750" y="400" font-family="Arial, sans-serif" font-size="120" font-weight="900" fill="#001F5C">Labs</text>
+  <!-- Left plane (light blue) -->
+  <polygon points="80,40 180,80 180,160 80,120" fill="#6B9FDB" opacity="0.7"/>
   
-  <!-- Tagline -->
-  <text x="750" y="440" font-family="Arial, sans-serif" font-size="36" letter-spacing="8" fill="#6B8DBE">IDEAS TO IMPACT</text>
+  <!-- Middle plane (dark blue) -->
+  <polygon points="140,30 220,70 220,160 140,120" fill="#001F5C"/>
+  
+  <!-- Right plane (cyan) -->
+  <polygon points="200,50 280,90 280,170 200,130" fill="#00B4E8"/>
+  
+  <!-- Bottom plane (purple) -->
+  <polygon points="80,120 180,160 280,170 180,130" fill="#8B5FBF" opacity="0.8"/>
 </svg>
